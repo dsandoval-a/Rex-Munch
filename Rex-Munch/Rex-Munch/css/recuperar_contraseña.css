@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+#contenedor article {
+    line-height: 28px;
+}
+
+#contenedor article #btn-abrir {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: #5E7DE3;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.contenedor article .btn-abrir:hover {
+    background: rgba(94, 125, 227, .9);
+}
+
+.overlay_recuperar {
+    background: rgba(242, 173, 61, 0.50);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overlay_recuperar.active {
+    visibility: visible;
+}
+
+.popup_contraseña {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0, .3);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 1185px;
+    height: 1078px;
+    transition: .3s ease all;
+    transform: scale(0.7);
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 48px;
+    transition: .3 ease all;
+    transform: scale(0.7);
+    opacity: 0;
+}
+
+#logo_rex_pw {
+    margin-top: 50px;
+    margin-right: 700px;
+}
+
+#contenedor .overlay_recuperar #titulo_recuperar {
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 1044px;
+    height: 95px;
+    left: 207px;
+    top: 544px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 61px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    font-weight: 1000px;
+}
+
+#contenedor .overlay_recuperar #datos_pw {
+    margin-top: 30px;
+    width: 917px;
+    height: 129px;
+    left: 275px;
+    top: 640px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 31px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#contenedor .overlay_recuperar #correo_recuperar {
+    margin-top: 100px;
+    width: 917px;
+    height: 129px;
+    left: 275px;
+    top: 640px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 31px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+#contenedor .overlay_recuperar .popup_contraseña #correo_recuperar .contenedor_inputs_recuperar #email_recuperar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 888px;
+    height: 132px;
+    left: 313px;
+    top: 814px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 23px;
+    margin-bottom: -50px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    text-align: center;
+}
+
+#btn_submit_recuperar {
+    margin-top: 100px;
+    background-color: #5f1348;
+    width: 540px;
+    height: 115px;
+    left: 479px;
+    top: 1047px;
+    border-radius: 21px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.btn_submit_recuperar:hover {
+    background-color: #310523;
+}
+
+.overlay_recuperar .popup_contraseña #btn_cerrar_recuperar {
+    font-size: 35px;
+    display: flex;
+    color: black;
+    margin-left: 1000px;
+    transition: .3s ease all;
+}
+
+.popup_contraseña.active {
+    opacity: 1;
+    transform: scale(0.7);
+}
+
+.error {
+    border: 2px solid red;
+}

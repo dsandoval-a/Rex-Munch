@@ -1,0 +1,305 @@
+/* Header */
+
+body {
+    font-family: 'Roboto';
+}
+
+#header_perfil {
+    width: 100%;
+    height: 305px;
+    background: url(../img/bannerverede_rexmunch.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header_perfil img {
+    width: 230px;
+    height: 120px;
+}
+
+#header_perfil #inferior #icono_user {
+    color: #F04D2F;
+    font-size: 100px;
+    padding-top: 300px;
+    margin-left: 100px;
+    margin-top: -18%;
+}
+
+#header_perfil #inferior #icono_user #button_container_cambiofoto {
+    display: flex;
+    background-color: #ffffff;
+    border-color: #5f1347;
+    border-radius: 100px;
+    margin-left: -25px;
+}
+
+#header_perfil #inferior .titulo_perfil h2 {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    text-decoration: underline 5px solid #F04D2F;
+    margin-left: 710px;
+    margin-top: -9%;
+}
+
+
+/* Termina Header */
+
+
+/* Derecha */
+
+.titulos_derecha button {
+    margin-left: 20px;
+    margin-top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+    background: none;
+    border: none;
+}
+
+.titulos_derecha h2 {
+    margin-left: 20px;
+    margin-top: 230px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+}
+
+.editar_perfil a {
+    color: #F2AD3D;
+    font-size: 30px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px;
+    width: 18%;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 230px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+}
+
+
+/* Termina Derecha */
+
+
+/* izquierda */
+
+.superior_izq #perfil_cliente .formulario {
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+    margin-top: -60%;
+    font-weight: bold;
+    margin-left: 850px;
+}
+
+.superior_izq #perfil_cliente .formulario .controles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+.superior_izq #perfil_cliente .formulario .controles .datos {
+    width: 380px;
+    height: 46px;
+    left: 100px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.superior_izq #perfil_cliente .formulario button {
+    width: 260px;
+    height: 50px;
+    left: 100px;
+    background: #5F1348;
+    border-radius: 18px;
+    color: white;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-bottom: -5%;
+}
+
+
+/* Termina Izquierda */
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 235px;
+    left: 0px;
+    top: 1334px;
+    background-color: #5f1348;
+    margin-top: 100px;
+}
+
+.apps {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    margin: 1rem;
+}
+
+.btn_footer {
+    display: flex;
+    align-items: center;
+    border-color: white;
+    border-radius: 10px;
+    width: 215px;
+    height: 82px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid;
+    background-color: none;
+    color: white;
+    background: #5F1348;
+    width: 280px;
+    margin-top: 40px;
+    height: 100px;
+}
+
+.apple {
+    font-size: 3rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    font-size: 20px;
+    padding: 0 0 0 20px;
+}
+
+.app {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer_img {
+    width: 2.5rem;
+}
+
+.footer_text {
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: white;
+    margin-top: 22px;
+}
+
+.footer_text p {
+    padding-bottom: 20px;
+}
+
+.modal_container {
+    display: flex;
+    background-color: #F2AD3D;
+    background-blend-mode: soft-light;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
+    text-align: center;
+}
+
+.modal__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close {
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    height: 150px;
+    float: right;
+}
+
+.close:hover {
+    color: #C4C4C4;
+}
+
+.modal_img {
+    display: flex;
+    height: 7rem;
+}
+
+.modal__tittle {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.credit_card_form {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #5F1348;
+    color: white;
+    border-color: none;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border-radius: 5%;
+    margin: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn:hover {
+    background-color: #931875;
+}

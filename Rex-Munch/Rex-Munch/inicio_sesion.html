@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/inicio_sesion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Roboto:ital,wght@1,100&display=swap" rel="hoja de estilo">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Iniciar Sesión</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <a href="#" class="btn-cerrar-popup" id="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                <h3>Inicia Sesión en Rex Munch</h3>
+                <form action="">
+                    <div class="contenedor_inputs" id="contenedor_inputs">
+
+                        <div>
+                            <input type="email" placeholder="Correo Electrónico" id="txt-usuario" required>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Contraseña" id="txt-contrasenna" required>
+                        </div>
+
+
+                        <nav>
+                            <a href="recuperar_contraseña.html">¿Haz olvidado tu contraseña?</a>
+                        </nav>
+
+                    </div>
+
+
+                    <button type="button" class="btn_submit" id="btn_submit">Iniciar Sesión</button>
+
+                </form>
+                <div class="inferior">
+                    <h4>¿No tienes una cuenta con Rex Munch?</h4>
+                    <nav>
+                        <a href="registrarse2_dueno.html">Regístrate</a>
+                    </nav>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/usuario-servicio.js"></script>
+    <script src="/js/inicio_sesion.js"></script>
+</body>
+
+</html>

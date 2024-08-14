@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Perfil_Restaurante.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="arriba">
+        <img src="/img/logo_rexmunch.png" alt="">
+        <h5>PERFIL RESTAURANTE</h5>
+    </div>
+
+    <div class="row">
+        <div class="general">
+            <!-- Izquierda -->
+            <section class="perfil_izquierda">
+                <h3>Nombre Oficial</h3>
+                <label for="nombre"></label>
+                <input class="controls" type="text" name="nombre" id="nombre" placeholder="Arcos Dorados">
+
+                <h3>Nombre Comercial</h3>
+                <label for="nombre-comercial"></label>
+                <input class="controls" type="text" name="nombre-comercial" id="nombre-comercial" placeholder="McDonald's">
+
+                <h3>Cedula Jurudica</h3>
+                <label for="cedula"></label>
+                <input class="controls" type="tel" name="cedula" id="cedula" placeholder="746462784">
+
+                <h3>Ubicacion</h3>
+                <select class="controls">
+                        <option selected disabled hidden>Provincia</option>
+                        <option>San Jose</option>
+                        <option>Heredia</option>
+                        <option>Puntarenas</option>
+                        </select>
+                <select class="controls">
+                            <option selected disabled hidden>Canton</option>
+                            <option>Moravia</option>
+                            <option>San i</option>
+                            <option>Tren</option>
+                            </select>
+                <select class="controls">
+                                <option selected disabled hidden>Distrito</option>
+                                <option>San jeronimo</option>
+                                <option>Avión</option>
+                                <option>Tren</option>
+                                </select>
+                <h3>Fotos</h3>
+                <img src="/img/Captura de pantalla (54).png" alt="">
+                <div class="general">
+                    <h3>Redes sociales</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="boton_izquierda">
+                        <button>Reporte de ventas del restaurante</button>
+                    </div>
+
+            </section>
+            </div>
+
+            <div class="general">
+                <!-- Derecha -->
+                <section class="perfil_derecha">
+
+                    <h3>Telefono</h3>
+                    <label for="telefono"></label>
+                    <input class="controls" type="tel" name="telefono" id="telefono" placeholder="6462364">
+
+                    <h3>Correo Electronico</h3>
+                    <label for="correo"></label>
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="mcdonalds@fmail.com">
+
+                    <h3>Capacidad Maxima</h3>
+                    <label for="capacidad"></label>
+                    <input class="controls" type="number" name="capacidad" id="capacidad" placeholder="50">
+                    <h3>Ubicacion Geografica</h3>
+                    <img src="/img/1366_2000.png" alt="">
+                    <h3>Horario</h3>
+                    <p>Lunes 0:00-00:0</p>
+                    <p>Martes 0:00-00:0</p>
+                    <p>Miercoles 0:00-00:0</p>
+                    <p>Jueves 0:00-00:0</p>
+                    <p>Viernes 0:00-00:0</p>
+                    <p>Sabado 0:00-00:0</p>
+                    <p>Domingo 0:00-00:0</p>
+                    <h3>Menu</h3>
+                    <button>Agregar Menu</button>
+                    <div class="boton_derecha">
+                        <button>Reservas en curso</button>
+                    </div>
+                </section>
+            </div>
+
+
+            <section id='registro_gerente'>
+                <div>
+                    <p id='titulo_registro'>PERFIL GERENTE</p>
+
+                </div>
+                <section id='formularios'>
+                    <form id='formulario_registro_gerente1'>
+
+                        <div id='nombre_gerente'>
+                            <label for="nombre_gerente_registro1">Nombre oficial</label>
+                            <input type="text" id="nombre_gerente_registro2">
+                        </div>
+                        <div id='correo_gerente'>
+                            <label for="correo_gerente_registro1">Correo</label>
+                            <input type="email" id="correo_gerente_registro2">
+                        </div>
+
+                        <div id="identificacion_gerente">
+                            <label for="identificacion_gerente_registro1">Identificación</label>
+                            <input type="text" id="identificacion_gerente_registro2">
+                        </div>
+
+                        <div>
+                            <button type="button" id="btn_id_gerente">Tipo de identificacion</button>
+                        </div>
+
+
+
+                    </form>
+
+                    <form id='formulario_registro_gerente2'>
+
+                        <div id='foto'>
+                            <label for="foto_gerente_registro1">Foto de perfil</label>
+                            <input type="image" src="/img/picture.png" height="206px" width="216px" id="foto_gerente_registro2">
+                        </div>
+
+
+                        <div id='fecha'>
+                            <label for="fecha_gerente_registro1">Fecha de nacimiento</label>
+                            <input type="date" id="fecha_gerente_registro2">
+                        </div>
+
+                        <div>
+                            <button type="button" id="btn_registro_gerente">EDITAR PERFILES</button>
+                        </div>
+
+                    </form>
+                </section>
+
+            </section>
+</body>
+
+</html>

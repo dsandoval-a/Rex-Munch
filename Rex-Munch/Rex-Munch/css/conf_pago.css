@@ -1,0 +1,281 @@
+/* Creo varias carpetas para acomodar lo que seria la informacion */
+
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo img {
+    width: 230px;
+    height: 120px;
+    margin: 0px 0px 0 -280px;
+}
+
+.todo {
+    display: flex;
+}
+
+.principal-factura p {
+    margin: 0px 0px 0 30px;
+    text-decoration: underline #dd9e27 2px;
+}
+
+.derecha {
+    margin: 0 0px 0px 320px;
+}
+
+.derecha .p {
+    margin: 0 0px 0px 90px;
+}
+
+.linea {
+    border-top: 2px solid rgb(202, 144, 18);
+    height: 2px;
+    padding: 0;
+    margin: 5px 0px 0px 0px;
+}
+
+.span {
+    margin: 0 0 0 65px;
+}
+
+.span-dos {
+    margin: 0 0 0 90px;
+}
+
+.todo p {
+    font-weight: bold;
+}
+
+.todo h2 {
+    font-size: 15px;
+}
+
+
+/*Aqui genero las configuraciones basicas del todo el popup */
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.contenedor article {
+    line-height: 28px;
+}
+
+.contenedor article h1 {
+    font-size: 30px;
+    text-align: left;
+    padding: 60px 0;
+}
+
+.contenedor article .btn-abrir-popup {
+    padding: 0 20px;
+    margin-bottom: 40px;
+    height: 50px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: #5E7DE3;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.contenedor article .btn-abrir-popup:hover {
+    background: rgba(94, 125, 227, .9);
+}
+
+
+/* POPUP */
+
+.overlay {
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    visibility: hidden;
+}
+
+
+/* Esto hace que se veal el POPUP */
+
+.overlay.active {
+    visibility: visible;
+}
+
+.popup {
+    background: #F8F8F8;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    transition: .3s ease all;
+    transform: scale(0.7);
+    opacity: 0;
+}
+
+.popup .btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    transition: .3s ease all;
+    color: #BBBBBB;
+}
+
+.popup .btn-cerrar-popup:hover {
+    color: #000;
+}
+
+.popup h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0;
+    -webkit-text-stroke: 2px #000000;
+}
+
+.popup form .btn-submit {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: #5f1347;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+    background: rgba(71, 14, 128, 0.9);
+}
+
+
+/* ANIMACIONES */
+
+.popup.active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.popup.active img {
+    animation: entradaTitulo .8s ease .5s forwards;
+}
+
+.popup.active h3 {
+    animation: entradaTitulo .8s ease .5s forwards;
+}
+
+.popup.active h2 {
+    animation: entradaTitulo .8s ease .5s forwards;
+}
+
+.popup.active p {
+    animation: entradaSubtitulo .8s ease .5s forwards;
+}
+
+.popup.active .contenedor-inputs {
+    animation: entradaInputs 1s linear 1s forwards;
+}
+
+@keyframes entradaTitulo {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes entradaSubtitulo {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes entradaInputs {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#main_principal123 .superior14 img {
+    width: 300px;
+    height: 200px;
+}
+
+#main_principal123 .inferior14 h3 {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 110px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#main_principal123 .inferior14 .btn-si {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f04d2f;
+    border-color: none;
+    padding: 2rem;
+    font-family: 'roboto';
+    font-size: 10rem;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 200px;
+    width: 350px;
+    margin-left: 23%;
+    margin-top: 2rem;
+    position: fixed;
+}
+
+#main_principal123 .inferior14 .btn-no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #F2AD3D;
+    border-color: none;
+    padding: 2rem;
+    font-family: 'roboto';
+    font-size: 10rem;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 200px;
+    width: 350px;
+    margin-left: 51%;
+    margin-top: 2rem;
+    position: fixed;
+}

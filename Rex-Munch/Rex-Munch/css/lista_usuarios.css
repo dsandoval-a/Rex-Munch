@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 1rem;
+    width: 1000px;
+}
+
+.header_titulo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    text-decoration-line: underline;
+    text-decoration-color: #F04D2F;
+}
+
+.header img {
+    display: flex;
+    width: 300px;
+}
+
+.busqueda {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.busqueda input {
+    width: 540px;
+    height: 72px;
+    border: 1px solid #F04D2F;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 1rem;
+}
+
+.tbl-usuarios {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}

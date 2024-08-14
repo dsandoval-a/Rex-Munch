@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Perfil Administrador</title>
+    <link rel="stylesheet" href="/css/perfil_admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="pfad__header">
+        <img src="/img/logo_rexmunch.png" class="pfad_logo">
+        <div class="pfad__admin">
+            <p class="pfaf_tittle">Administrador</p>
+        </div>
+    </div>
+
+    <div class="form" id="form">
+
+        <div class="editor" id="editor">
+            <button class="editor_btn">Editar Perfil</button>
+        </div>
+
+        <div class="f__form">
+            <form>
+                <div class="form_container">
+                    <label class="datos" for="txt-nombre">Nombre del Usuario</label>
+                    <input type="nombre" id="txt-nombre">
+
+
+                    <label class="datos" for="txt-correo">Correo electrónico</label>
+                    <input type="correo" id="txt-correo">
+
+
+                    <label class="datos" for="txt-fecha">Fecha de nacimiento</label>
+                    <input type="fecha" id="txt-fecha">
+
+
+                    <label class="datos" for="txt-id">Identificación</label>
+                    <input type="id" id="txt-id">
+                    <select>
+                        <option value="00">Tipo de Identificación</option>
+                        <option value="01">Nacional</option>
+                        <option value="02">Residente</option>
+                        <option value="03">Jurídica</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer" id="footer">
+        <div class="apps">
+            <div class="footer_btn">
+                <button class="btn_footer">
+                    <i class="fab fa-apple apple"></i>
+                    <div class="txt">
+                        <p>Descargala en</p>
+                        <p class="app">App Store</p>
+                    </div>
+                </button>
+            </div>
+            <div class="footer_btn">
+                <button class="btn_footer">
+                    <img src="img/Untitled-2.png" class="footer_img"></i>
+                    <div class="txt">
+                        <p>Descargala en</p>
+                        <p class="app">Play Store</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer__text">
+            <a href="">Acerca de Rex-Munch</a>
+            <div class="redes_soc">
+                <p>Siguenos en</p>
+                <a href=""><i class="fab fa-instagram red_social"></i></a>
+                <a href=""><i class="fab fa-twitter red_social"></i></a>
+                <a href=""><i class="fab fa-facebook red_social"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/perfil_admin.js"></script>
+</body>
+
+</html>

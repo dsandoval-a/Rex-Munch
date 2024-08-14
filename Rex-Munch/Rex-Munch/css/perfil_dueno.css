@@ -1,0 +1,309 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#imagen_header {
+    background-image: url("../img/bannerverede_rexmunch.png");
+    background-position: absolute;
+    background-size: contain;
+    height: 400px;
+    padding: 0 5%;
+}
+
+#imagen_header .logo .logo_rex {
+    width: 230px;
+    height: 120px;
+    position: absolute;
+}
+
+#imagen_header #inferior #icono_user {
+    color: #F04D2F;
+    font-size: 100px;
+    position: absolute;
+    padding-top: 220px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#imagen_header #inferior #cambio_foto {
+    display: flex;
+    margin: 3px;
+}
+
+#imagen_header #inferior #cambio_foto #button_container_cambiofoto {
+    background-color: #ffffff;
+    border-color: #5f1347;
+    border-radius: 50px;
+    margin-left: 104px;
+    margin-top: 330px;
+    padding: 4px;
+}
+
+#imagen_header #inferior #titulo_perfil {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    text-decoration: underline 3px solid #F04D2F;
+    margin-left: 650px;
+    margin-top: -15%;
+}
+
+#registro_resta_superior_derecha .button_container_regisrest {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-color: #F04D2F;
+    border-radius: 8px;
+    margin-left: 12.6%;
+    padding: 5px;
+    width: 18%;
+    position: static;
+}
+
+#centro_rest_regis #titu {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    margin-top: 55px;
+    margin-left: 12.6%;
+}
+
+#centro_rest_regis #rest_1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    margin-top: 55px;
+    margin-left: 14%;
+}
+
+#centro_rest_regis #rest_2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    margin-top: 20px;
+    margin-left: 14%;
+}
+
+#centro_rest_regis #rest_3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    margin-top: 20px;
+    margin-left: 14%;
+}
+
+#centro_rest_regis .button_editar_perfil {
+    color: #F2AD3D;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 12.6%;
+    padding: 5px;
+    width: 18%;
+    position: absolute;
+    margin-top: 28%;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno {
+    font-size: 30px;
+    font-family: 'roboto', sans-serif;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 850px;
+    position: relative;
+    margin-top: -27%;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #nombre_dueno {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 120px;
+    margin-top: 2px;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #nombre_dueno #nombre_perfil_dueno1 {
+    width: 380px;
+    height: 46px;
+    left: 100px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #correo_dueno {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 120px;
+    margin-top: 20%;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #correo_dueno #correo_perfil_dueno1 {
+    width: 380px;
+    height: 46px;
+    left: 100px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #fecha_dueno {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 120px;
+    margin-top: 20%;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #fecha_dueno #fecha_perfil_dueno1 {
+    width: 380px;
+    height: 46px;
+    left: 100px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #identificacion_dueno {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 120px;
+    margin-top: 20%;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno #identificacion_dueno #identificacion_perfil_dueno1 {
+    width: 380px;
+    height: 46px;
+    left: 100px;
+    border: 1px solid#5F1348;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.superior_izq #perfil_dueno #formulario_perfil_dueno select {
+    width: 250px;
+    height: 52px;
+    background: #5F1348;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: 0.5rem;
+    margin-left: 27%;
+    margin-top: 40px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 170px;
+    left: 0px;
+    top: 1334px;
+    background-color: #5f1348;
+}
+
+.apps {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    margin: 1rem;
+}
+
+.btn_footer {
+    display: flex;
+    align-items: center;
+    border-color: white;
+    border-radius: 10px;
+    width: 215px;
+    height: 82px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid;
+    background-color: transparent;
+    color: white;
+    width: 215px;
+    height: 100px;
+}
+
+.apple {
+    font-size: 3rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    font-size: 0.7rem;
+    padding: 0 0 0 20px;
+}
+
+.app {
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer_img {
+    width: 2.5rem;
+}
+
+.footer_text {
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 3rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_text p {
+    padding-bottom: 20px;
+}

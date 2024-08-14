@@ -1,0 +1,302 @@
+        /* Editar parte arriba y cosas generales */
+        
+        .arriba {
+            background-image: url(../img/bannerverede_rexmunch.png);
+            width: 100%;
+            height: 255px;
+        }
+        
+        .arriba img {
+            width: 230px;
+            height: 120px;
+            float: right;
+        }
+        
+        .arriba h5 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            position: relative;
+            top: 80%;
+            text-decoration: underline #dc5c05 2px;
+            margin: 0px 0px 0 95px;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .general h3 {
+            font-size: 26px;
+            margin: 0px 0px 0 -5px;
+        }
+        
+        .general .social-links a {
+            height: 90px;
+            width: 90px;
+            margin: 0 10px 10px 10;
+            text-align: center;
+            color: #883f80;
+            transition: all 0.5s ease;
+        }
+        
+        .general .social-links a:hover {
+            color: #24262b;
+        }
+        /* Editar el cuadro donde estara el nombre, corre, mensaje...
+        y su respectivo lugar.
+        Izquierda */
+        
+        .perfil_izquierda {
+            width: 255px;
+            background: transparent;
+            padding: 30px;
+            margin-top: 100px;
+            font-family: 'calibri';
+            color: rgb(0, 0, 0);
+            margin: 0 0px 0px 70px;
+        }
+        
+        .perfil_izquierda img {
+            width: 330px;
+            height: 180px;
+        }
+        
+        .boton_izquierda button {
+            width: 110%;
+            border-radius: 10px;
+            background: #6ec5b8;
+            border: 1px solid #6ec5b8;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            margin: 145px 0 70px;
+            font-size: 16px;
+        }
+        /* Editar el cuadro donde estara el nombre, corre, mensaje...
+        y su respectivo lugar.
+        Derecha */
+        
+        .perfil_derecha {
+            width: 255px;
+            background: transparent;
+            padding: 30px;
+            margin-top: 100px;
+            font-family: 'calibri';
+            color: rgb(0, 0, 0);
+            margin: 0 0px 0px 350px;
+        }
+        
+        .perfil_derecha img {
+            width: 230px;
+            height: 120px;
+        }
+        
+        .perfil_derecha button {
+            width: 50%;
+            border-radius: 10px;
+            background: none;
+            border: 1px solid blueviolet;
+            padding: 12px;
+            color: rgb(86, 8, 194);
+            margin: 16px 0 70px 55px;
+            font-size: 16px;
+        }
+        
+        .boton_derecha button {
+            width: 110%;
+            border-radius: 10px;
+            background: #6ec5b8;
+            border: 1px solid #6ec5b8;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            margin: 16px 0 70px;
+            font-size: 16px;
+        }
+        /* Editar cuadros */
+        
+        .controls {
+            width: 100%;
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 9px;
+            margin-bottom: 16px;
+            border: 1px solid #434343;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+        }
+        /* Andres */
+        
+        #registro_gerente #titulo_registro {
+            font-size: 100px;
+            font-weight: 400;
+            font-family: 'Bebas Neue', cursive;
+            text-decoration: underline 3px solid #F04D2F;
+            text-underline-offset: 20px;
+            margin-top: 10px;
+            margin-left: 70px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 {
+            font-size: 35px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 70px;
+            margin-top: 10px;
+            font-weight: 700;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 #nombre_gerente {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 #nombre_gerente #nombre_gerente_registro2 {
+            width: 440px;
+            height: 72px;
+            left: 100px;
+            top: 2198px;
+            border: 1px solid #C4C4C4;
+            box-sizing: border-box;
+            border-radius: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 #correo_gerente {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 #correo_gerente #correo_gerente_registro2 {
+            width: 440px;
+            height: 72px;
+            left: 100px;
+            top: 2198px;
+            border: 1px solid #C4C4C4;
+            box-sizing: border-box;
+            border-radius: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 #identificacion_gerente {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 #btn_id_gerente {
+            width: 263px;
+            height: 72px;
+            left: 277px;
+            top: 2637px;
+            background: #5F1348;
+            border-radius: 18px;
+            color: white;
+            font-family: roboto;
+            font-style: normal;
+            font-weight: normal;
+            margin-left: 175px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 #identificacion_gerente #identificacion_gerente_registro2 {
+            width: 440px;
+            height: 72px;
+            left: 100px;
+            top: 2198px;
+            border: 1px solid #C4C4C4;
+            box-sizing: border-box;
+            border-radius: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente2 {
+            font-size: 35px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 70px;
+            margin-top: 10px;
+            font-weight: 700;
+        }
+        
+        #registro_gerente #formulario_registro_gerente1 {
+            height: 440px;
+            width: 440px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 75px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente2 {
+            height: 700px;
+            width: 550px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 30px;
+            margin-top: 75px;
+            margin-left: 300px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente2 #foto #foto_gerente_registro2 {
+            margin-top: 40px;
+            margin-left: 150px;
+            margin-bottom: 40px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente2 #foto {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #registro_gerente #formularios {
+            display: flex;
+        }
+        
+        #registro_gerente #formulario_registro_gerente2 #fecha_gerente_registro2 {
+            width: 440px;
+            height: 72px;
+            left: 100px;
+            top: 2198px;
+            border: 1px solid #C4C4C4;
+            box-sizing: border-box;
+            border-radius: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        
+        #registro_gerente #formulario_registro_gerente2 #btn_registro_gerente {
+            width: 425px;
+            height: 87px;
+            left: 894px;
+            top: 2750px;
+            background: #5F1348;
+            border-radius: 19px;
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 58px;
+            line-height: 70px;
+            color: white;
+            margin-top: 100px;
+            margin-left: 90px;
+        }
+        
+        #opciones {
+            width: 263px;
+            height: 72px;
+            background: #5F1348;
+            border-radius: 18px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 19px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 15px;
+            margin: 0.5rem;
+        }

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/reset.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/perfil_cliente.css">
+    <title>Perfil-Cliente</title>
+</head>
+
+<body>
+
+
+
+    <div class="modal_container" id="modal_container">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="/img/logo_rexmunch.png" class="modal_img">
+                <button class="close" id="close"><i class="fas fa-times"></i></button>
+            </div>
+
+            <div class="modal__tittle">
+                <p>Registro de metodo de pago</p>
+            </div>
+
+            <div class="credit_card">
+                <div class="credit_card_form">
+                    <div class="payment">
+                        <form>
+                            <div class="form-group owner">
+                                <label for="owner">Nombre</label>
+                                <input type="text" class="form-control" id="owner">
+                            </div>
+                            <div class="form-group" id="card-number-field">
+                                <label for="cardNumber">Número de tarjeta</label>
+                                <input type="text" class="form-control" id="cardNumber">
+                            </div>
+                            <div class="form-group CVV">
+                                <label for="cvv">CVV</label>
+                                <input type="text" class="form-control" id="cvv">
+                            </div>
+                            <div class="form-group" id="expiration-date">
+                                <label>Fecha de expiración</label>
+                                <select>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                                <select>
+                                <option value="16"> 2021</option>
+                                <option value="17"> 2022</option>
+                                <option value="18"> 2023</option>
+                                <option value="19"> 2024</option>
+                                <option value="20"> 2025</option>
+                                <option value="21"> 2026</option>
+                            </select>
+                            </div>
+                            <div class="form-group" id="pay-now">
+                                <button type="submit" class="btn btn-default" id="confirm-purchase">Registrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header id="header_perfil">
+        <img src="/img/logo_rexmunch.png">
+
+        <section id="inferior">
+            <div id="icono_user">
+                <i class="far fa-user"></i>
+                <button id="button_container_cambiofoto">Cambiar foto de perfil</button>
+            </div>
+
+            <div class="titulo_perfil">
+                <h2>PERFIL CLIENTE</h2>
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+        <div class="titulos_derecha">
+            <button id="open"> Métodos de pago</button>
+            <h2>Restaurantes Favoritos</h2>
+        </div>
+
+        <div class="editar_perfil">
+            <a href="">Editar Perfil</a>
+        </div>
+
+        <section class="superior_izq">
+            <section id="perfil_cliente">
+
+                <section>
+                    <form class="formulario">
+
+                        <div class="controles">
+                            <label for="nombre_perfil_cliente">Nombre del Usuario</label>
+                            <input class="datos" type="text" id="nombre_perfil_cliente" value="Daniel Sandoval Araya" disabled>
+
+
+                            <label for="correo_perfil_cliente">Correo Electrónico</label>
+                            <input class="datos" type="email" id="correo_perfil_cliente" value="dsandovala@ucenfotec.ac.cr" disabled>
+
+
+                            <label for="fecha_perfil_cliente">Fecha de nacimiento</label>
+                            <input class="datos" type="text" id="fecha_perfil_cliente" value="14/10/1998" disabled>
+
+
+                            <label for="identificacion_perfil_cliente">Identificación</label>
+                            <input class="datos" type="text" id="identificacion_perfil_cliente" value="304780241" disabled>
+                        </div>
+
+                        <button type="button">Tipo de identificación</button>
+
+                    </form>
+                </section>
+
+            </section>
+
+        </section>
+    </main>
+
+
+    <div class="footer" id="footer">
+        <div class="apps">
+            <div class="footer_btn">
+                <button class="btn_footer">
+                    <i class="fab fa-apple apple"></i>
+                    <div class="txt">
+                        <p>Descárgala en</p>
+                        <p class="app">App Store</p>
+                    </div>
+                </button>
+            </div>
+            <div class="footer_btn">
+                <button class="btn_footer">
+                    <img src="/img/playstore.png" class="footer_img"></i>
+                    <div class="txt">
+                        <p>Descárgala en</p>
+                        <p class="app">Play Store</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="footer_text">
+            <a href="">Acerca de Rex Munch</a>
+            <div class="redes_soc">
+                <p>Síguenos en</p>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/js/jquery.payform.min.js" charset="utf-8"></script>
+    <script src="/js/metodo_de_pago.js"></script>
+
+</body>
+
+</html>

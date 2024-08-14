@@ -1,0 +1,783 @@
+body {
+    font-family: 'Bebas Neue', 'cursive';
+    font-family: 'Dancing Script', 'cursive';
+    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+/* Inicio del header*/
+
+#header_principal {
+    background-image: url(../img/bannernaranja_rexmunch.png);
+    width: 100%;
+    height: 555px;
+}
+
+#header_principal img {
+    width: 230px;
+    height: 120px;
+}
+
+.menu_opciones nav a {
+    width: 230px;
+    height: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    display: flex;
+    color: #000000;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.rectangulo {
+    width: 300px;
+    height: 455px;
+    background: rgba(240, 77, 47, 0.2);
+    border-radius: 0px 0px 57px 0px;
+}
+
+#header_principal .button {
+    display: flex;
+    position: relative;
+    float: right;
+    top: -80%;
+    width: 255px;
+    height: 75px;
+}
+
+#header_principal .button_container1 {
+    background-color: white;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    border-style: none;
+    text-decoration: none;
+}
+
+.eslogan_rexmunch p {
+    position: absolute;
+    width: 720px;
+    font-weight: 300px;
+    left: 505px;
+    top: 200px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    text-align: right;
+    color: #000000;
+}
+
+
+/*Inicia Daniel*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-principal10 p {
+    width: 841px;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 110px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+#main_principal11 .superior2 p {
+    width: 490px;
+    margin-bottom: 25px;
+    margin-left: 121px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+#main_principal11 .inferio1 .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+#main_principal11 .inferior1 .contenedor .btn-abrir-popup {
+    transition: .3s ease all;
+    background-color: #5f1347;
+    border-color: #5f1347;
+    border-radius: 22px;
+    border: none;
+    margin-left: 10%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ffffff;
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+#main_principal11 .inferior1 .overlay {
+    background: rgba(240, 76, 48, 0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+#main_principal11 .inferior1 .overlay.active {
+    visibility: visible;
+}
+
+#main_principal11 .inferior1 .popup {
+    background: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0, .3);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    transition: .3s ease all;
+    transform: scale(0.7);
+    opacity: 0;
+    visibility: visible;
+}
+
+#main_principal11 .inferior1 .popup .btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    transition: .3s ease all;
+    color: #BBBBBB;
+}
+
+#main_principal11 .inferior1 .popup .btn-cerrar-popup:hover {
+    color: #000;
+}
+
+#main_principal11 .inferior1 .popup h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#main_principal11 .inferior1 .popup h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#main_principal11 .inferior1 .btn-cliente {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f04d2f;
+    border-color: none;
+    padding: 2rem;
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    margin-left: -45%;
+    position: fixed;
+}
+
+#main_principal11 .inferior1 .cliente {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#main_principal11 .inferior1 .btn_cliente h1 {
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#main_principal11 .inferior1 .btn-due {
+    background-color: #F04830;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    border-color: none;
+    padding: 2rem;
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    margin-left: 55%;
+    margin-bottom: 20px;
+}
+
+#main_principal11 .inferior1 .tenedor {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#main_principal11 .inferior1 .popup .inicio_sesiond {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #858181;
+}
+
+#main_principal11 .inferior1 .popup .enlace {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #F04D2F;
+}
+
+#main_principal11 .inferior1 .popup .ult_p {
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_principal11 .inferior1 .popup .enlace2 {
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 400;
+    color: #F04D2F;
+}
+
+#main_principal11 .inferior1 .popup.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#main_principal11 .inferior1 .popup.active h3 {
+    animation: entradaTitulo .8s ease .5s;
+}
+
+.popup.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.popup.active h3 {
+    animation: entradaTitulo .8s ease .5s;
+}
+
+#main_principal11 .inferior1 .foto {
+    width: 50%;
+    margin-left: 44%;
+    margin-top: -3%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#main_principal11 .inferior1 .foto img {
+    position: absolute;
+    align-self: center;
+    width: 50%;
+    height: 355px;
+    margin-left: 4%;
+}
+
+
+/*Inicia Daniel*/
+
+@media all and (max-width: 720px) {
+    #main-principal10 p {
+        width: 841px;
+        margin-top: 30px;
+        margin-left: 80px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #000;
+    }
+    #main_principal11 .superior2 p {
+        width: 400px;
+        margin-bottom: 25px;
+        margin-left: 80px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        color: #000;
+    }
+    #main_principal11 .inferior1 .contenedor .btn-abrir-popup {
+        transition: .3s ease all;
+        background-color: #5f1347;
+        border-color: #5f1347;
+        border-radius: 22px;
+        border: none;
+        margin-top: 50px;
+        margin-left: 55px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: #ffffff;
+        width: 300px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 54px;
+        line-height: 70px;
+    }
+    #main_principal11 .inferior1 .foto {
+        width: 490px;
+        margin-left: 59%;
+        margin-top: -10%;
+        display: flex;
+        align-items: flex-start;
+    }
+    #main_principal11 .inferior1 .foto img {
+        position: absolute;
+        align-self: center;
+        width: 66%;
+        height: 76%;
+    }
+}
+
+
+/*Termina Daniel*/
+
+
+/*Termina Daniel*/
+
+
+/*Inicia Bryan*/
+
+.parte2 {
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+.parte2 h3 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline chocolate 2px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.parte2 p {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+.parte2 img {
+    width: 400px;
+    height: 230px;
+    margin: 0 0 0 400px;
+}
+
+.texto2 {
+    font-size: 30px;
+    color: chocolate;
+}
+
+
+/*Termina Bryan*/
+
+
+/*Inicia Andres*/
+
+#seccion_3 {
+    display: flex;
+    padding-top: 5%;
+}
+
+#seccion_3 #titulos_3 {
+    justify-content: center;
+}
+
+#seccion_3 #titulos_3 #descarga_3 {
+    font-family: 'Bebas Neue', 'cursive';
+    font-size: 90px;
+    padding-bottom: 2%;
+    display: flex;
+}
+
+#seccion_3 #titulos_3 #reserva_3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+#seccion_3 #izquierda_3 {
+    padding-right: 10%;
+}
+
+#seccion_3 #izquierda_3 #movil {
+    margin-left: -20px;
+}
+
+#seccion_3 #titulos_3 #derecha_3 {
+    display: flex;
+}
+
+#seccion_3 #titulos_3 #derecha_3 #appstore {
+    padding-right: 2%;
+}
+
+#seccion_3 #titulos_3 #derecha_3 #playstore {
+    margin-left: 45px;
+}
+
+#seccion_3 #titulos_3 #comida_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-left: 12px;
+}
+
+
+/*Termina Andres*/
+
+
+/*Inicia Anthony*/
+
+#header-principal {
+    background: #F04c30;
+}
+
+.superior {
+    padding: 20px 0;
+}
+
+#header-principal .superior h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+#header-principal .contenedorh2 {
+    width: 980px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+#header-principal .superior h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.medio {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 40px 0;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.medio img {
+    margin-top: -140px;
+}
+
+.medio p {
+    margin: 0;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+.medio .boton {
+    padding: 20px;
+    background: #5f1347;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.inferior {
+    display: flex;
+    background-color: #F04830;
+    height: 175px;
+    margin-left: 290px;
+    justify-content: center;
+    border-radius: 18px 0 0 18px;
+}
+
+.inferior div {
+    display: flex;
+    align-items: center;
+}
+
+.inferior p {
+    margin: 20px;
+    height: 60px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+
+/*Termina Anthony*/
+
+
+/*Inicia Fer*/
+
+.mm {
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    flex-direction: column;
+    margin: 2.5rem 0;
+}
+
+.mm__tittle p {
+    color: white;
+    font-size: 8rem;
+    padding-left: 1rem;
+}
+
+.mm__options {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15rem;
+}
+
+.mm__opt1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.mm__opt {
+    display: flex;
+    background-color: #83C3B8;
+    font-size: 5rem;
+    align-items: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.mm__opt_1 {
+    padding: 2rem;
+    color: white;
+}
+
+.mm__opt1-p {
+    color: #5F134B;
+    padding: 0;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    width: 150px;
+    text-align: center;
+}
+
+.mm__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.mm__text p {
+    margin: 0;
+    font-weight: 100;
+}
+
+@media (max-width: 1250px) {
+    .mm__tittle p {
+        color: white;
+        font-size: 5.5rem;
+        padding-left: 1rem;
+    }
+    .mm__options {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 8rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mm__tittle p {
+        color: white;
+        font-size: 5.5rem;
+        padding-left: 1rem;
+    }
+    .mm__options {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10rem;
+        flex-flow: wrap;
+    }
+}
+
+@media (max-width: 900px) {
+    .mm__tittle {
+        display: flex;
+        background-color: #F04830;
+        height: 100px;
+        margin-left: 267px;
+        align-items: center;
+        border-radius: 18px 0 0 18px;
+    }
+    .mm__tittle p {
+        color: white;
+        font-size: 4rem;
+        padding-left: 1rem;
+    }
+    .mm__options {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10rem;
+        flex-flow: wrap;
+    }
+}
+
+
+/*Termina Fer*/
+
+* {
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    background: #5F1347;
+    color: white;
+}
+
+.container_footer_all a {
+    font-family: 'Roboto';
+    width: 100%;
+    max-width: 1150px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    flex-direction: row;
+}
+
+.container_body {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5F1348;
+}
+
+.column1 {
+    margin-top: 50px;
+    max-width: 500px;
+}
+
+.column1 img {
+    width: 260px;
+    height: 150px;
+}
+
+.column2 {
+    margin: 70px;
+    max-width: 500px;
+    font-size: 50px;
+}
+
+.column3 {
+    margin: 70px;
+    max-width: 500px;
+    font-size: 50px;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    border: 2px solid;
+    background-color: #5F1348;
+    color: white;
+    border-radius: 10px;
+}
+
+.button_container {
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 250px;
+    padding: 50 px;
+}
+
+.apple {
+    font-size: 4rem;
+    padding: 1rem 1rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0;
+    align-items: center;
+}
+
+.app {
+    font-size: 2rem;
+}
+
+.img {
+    width: 5rem;
+}

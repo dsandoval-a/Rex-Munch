@@ -1,0 +1,932 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    /* Header principal*/
+    
+    #header-principal {
+        background-image: url("../img/img_portada.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 70%;
+    }
+    /* Header principal superior */
+    
+    #header-principal .superior nav {
+        font-size: 200%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #header-principal .superior nav a {
+        color: #fff;
+        font-weight: normal;
+        text-decoration: none;
+        margin: 45px;
+    }
+    
+    #header-principal .superior nav a:hover {
+        text-decoration: underline #dd9e27 4px;
+    }
+    /* Header principal inferior */
+    
+    #header-principal .inferior {
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+        font-weight: normal;
+        line-height: 185%;
+        margin-top: 3%;
+    }
+    
+    #header-principal .inferior p {
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        margin-left: 25px;
+        font-weight: 550;
+    }
+    
+    #header-principal .inferior p:nth-child(1) {
+        color: #fff;
+        font-size: 50px;
+        font-weight: normal;
+    }
+    
+    #header-principal .inferior p:nth-child(1) {
+        color: #fff;
+        font-size: 50px;
+        font-weight: normal;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+    
+    #header-principal .inferior p:nth-child(3) {
+        color: #fff;
+        font-size: 50px;
+        font-weight: normal;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
+    }
+    
+    #header-principal .otroestilo {
+        color: #dd9e27;
+        font-size: 50px;
+        font-weight: bolder;
+        -webkit-text-stroke: 4px #dd9e27;
+    }
+    /* Inicia servicios*/
+    
+    #header-Servicios {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #servicios .interior {
+        font-size: 55px;
+        color: #4289c9;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        width: 90%;
+    }
+    
+    #servicios .interior .imagen-fondo {
+        width: 45%;
+        padding: 70px;
+        margin: 0 300px 100px 0;
+    }
+    
+    #servicios .interior .imagen-fondo:hover {
+        filter: saturate(150%);
+    }
+    
+    #servicios .interior .texto {
+        flex-direction: column;
+        width: 50%;
+        height: 400px;
+    }
+    
+    .h5-servicios h5 {
+        font-size: 75px;
+        color: #4289c9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 150px;
+        font-weight: 1000;
+    }
+    
+    h5:hover {
+        -webkit-text-stroke: 2px #10102A;
+    }
+    
+    .h2-servicios h2 {
+        font-size: 30px;
+        -webkit-text-stroke: 2px #10102A;
+        font-weight: bolder;
+        margin-bottom: 40px;
+    }
+    
+    .h2-servicios h2:hover {
+        -webkit-text-stroke: 2px #0d75d0;
+    }
+    
+    .texto p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        -webkit-text-stroke: 1px #000000;
+    }
+    /* Termina servicios*/
+    /* Inicia Mision y Vision*/
+    
+    section {
+        box-sizing: border-box;
+    }
+    /* START */
+    
+    .about {
+        display: flex;
+        background: #0f0e27;
+        color: #fff;
+        font-size: 24px;
+    }
+    
+    .about-box {
+        padding: 90px 60px;
+        box-sizing: border-box 100px;
+    }
+    
+    .about-box h2 {
+        color: #dd9e25;
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-family: Oswald;
+    }
+    
+    .about-box p {
+        text-align: justify;
+        line-height: 1.5;
+        font-weight: 300;
+        color: #bbbbbb;
+        font: 1em sans-serif;
+    }
+    /* Termina Mision y Vision*/
+    /* Inicia Proyecto*/
+    
+    .protectos__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .proyectos__proyecto {
+        display: flex;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    
+    .proyecto__slider {
+        display: flex;
+        flex-basis: 50%;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem;
+    }
+    
+    .protecto__tittle {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+    }
+    
+    .proyecto__parrafo {
+        font-weight: 100;
+        margin-top: 0;
+        text-align: center;
+        -webkit-text-stroke: 1px #000000;
+    }
+    
+    .proyecto__2 {
+        display: flex;
+        flex-basis: 50%;
+        flex-direction: column;
+        font-size: 3rem;
+        font-weight: 700;
+        border-radius: 47% 0 0 47%;
+        background-color: #dd9e27;
+        padding: 2rem;
+        align-items: center;
+        margin: 2, 4rem 0 0 2rem;
+        max-height: 17rem;
+    }
+    
+    .proyecto__2 a {
+        text-decoration: none;
+    }
+    
+    .proyecto__2-title {
+        margin: 0;
+        font-size: 6rem;
+        font-weight: 600rem;
+        color: white;
+        text-align: end;
+    }
+    /* Termina Proyecto*/
+    /* Inicia nuestro equipo*/
+    
+    #header-tres {
+        background-color: black;
+    }
+    
+    .h1 {
+        font-size: 58px;
+        font-weight: 700px;
+        justify-content: center;
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        background-color: #F2F2F3;
+        -webkit-text-stroke: 4px #000000;
+    }
+    
+    #sct-team {
+        padding: 30px;
+        background-color: #F2F2F3;
+    }
+    
+    #sct-team .card-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    #sct-team .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        border: 2px solid #F2F2F3;
+    }
+    
+    #sct-team .card .circular--square {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    #sct-team .card header img {
+        display: flex;
+        size: 50px;
+    }
+    
+    #sct-team .card .card-body {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F3;
+        color: #fff;
+        padding: 30px;
+    }
+    
+    .name {
+        -webkit-text-stroke: 3px #0b0766;
+        font-size: 35px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .card-role {
+        -webkit-text-stroke: 3px #000000;
+        font-size: 38px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .card-description {
+        -webkit-text-stroke: 1px #464646;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #foot {
+        margin-left: 500px;
+        width: 25%;
+        height: 25%;
+    }
+    /* Termina nuestro equipo*/
+    /* Inicia footer */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    * {
+        box-sizing: border-box;
+    }
+    
+    .footer .container {
+        max-width: 1170px;
+        margin: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .footer {
+        background-image: linear-gradient(45deg, #0b0766 0%, #000000 99%, #000000 100%);
+        padding: 70px 0;
+    }
+    /* Edito cuadro */
+    
+    .footer-col {
+        width: 35%;
+        padding: 0 15px;
+    }
+    /* Edito letra de contactanos */
+    
+    .footer-col h3 {
+        font-size: 36px;
+        margin: 10px 0 0 20px;
+        text-transform: capitalize;
+        position: relative;
+        -webkit-text-stroke: 4px #dd9e27;
+    }
+    /* Editar el cuadro donde estara el nombre, corre, mensaje */
+    
+    .form-register {
+        width: 255px;
+        background: transparent;
+        padding: 30px;
+        margin-top: 100px;
+        font-family: 'calibri';
+        color: white;
+        margin: 0 10px 10px 0;
+    }
+    /* Editar cuadro individales */
+    
+    .controls {
+        width: 100%;
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 9px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+    }
+    /* Editar cuadro de mensaje */
+    
+    .control {
+        width: 100%;
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 9px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+    }
+    /* Editar boton de enviar */
+    
+    .form-register .botons {
+        width: 50%;
+        background: #c5961f;
+        border-radius: 50px;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0 70px 90px;
+        font-size: 16px;
+    }
+    /* Editar sub titulos h4 */
+    
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ddb514;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 400;
+        position: relative;
+    }
+    
+    .footer-col h4::before {
+        content: '   ';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    /* Editar informacion */
+    
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover {
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    /* Editar iconos */
+    
+    .footer-col .social-links a {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 40%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    
+    .footer-col .social-links a:hover {
+        color: #24262b;
+        background-color: #ffffff;
+    }
+    /* Editar logo */
+    
+    .logo img {
+        width: 300px;
+        height: 300px;
+    }
+    /*responsive*/
+    
+    @media(max-width: 720px) {
+        .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media(max-width: 720px) {
+        .footer-col {
+            width: 100%;
+        }
+    }
+    /* Terminaa footer */
+    
+    @media all and (max-width: 720px) {
+        #header-principal {
+            background-image: url("../imgs/img_portada.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 70%;
+            width: 100%;
+        }
+        /* Header principal superior */
+        #header-principal .superior nav {
+            font-size: 85%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #header-principal .superior nav a {
+            color: #fff;
+            font-weight: normal;
+            text-decoration: none;
+            margin: 45px;
+        }
+        #header-principal .superior nav a:hover {
+            text-decoration: underline #dd9e27 4px;
+        }
+        /* Header principal inferior */
+        #header-principal .inferior {
+            color: rgb(255, 255, 255);
+            font-size: 55px;
+            font-weight: normal;
+            line-height: 185%;
+            margin-top: 3%;
+        }
+        #header-principal .inferior p {
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            margin-left: 25px;
+            font-weight: 550;
+        }
+        #header-principal .inferior p:nth-child(1) {
+            color: #fff;
+            font-size: 50px;
+            font-weight: normal;
+        }
+        #header-principal .inferior p:nth-child(1) {
+            color: #fff;
+            font-size: 50px;
+            font-weight: normal;
+            -webkit-text-stroke: 1px rgb(255, 255, 255);
+        }
+        #header-principal .inferior p:nth-child(3) {
+            color: #fff;
+            font-size: 50px;
+            font-weight: normal;
+            -webkit-text-stroke: 2px rgb(255, 255, 255);
+        }
+        #header-principal .otroestilo {
+            color: #dd9e27;
+            font-size: 50px;
+            font-weight: bolder;
+            -webkit-text-stroke: 4px #dd9e27;
+        }
+        /*inicia nuestros servicios*/
+        #header-Servicios {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        #servicios .interior {
+            font-size: 55px;
+            color: #4289c9;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            width: 90%;
+        }
+        #servicios .interior .imagen-fondo {
+            width: 45%;
+            padding: 70px;
+            margin: 0 300px 100px 0;
+        }
+        #servicios .interior .imagen-fondo:hover {
+            filter: saturate(150%);
+        }
+        #servicios .interior .texto {
+            flex-direction: column;
+            width: 50%;
+            height: 400px;
+        }
+        .h5-servicios h5 {
+            font-size: 75px;
+            color: #4289c9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            font-weight: 1000;
+        }
+        h5:hover {
+            -webkit-text-stroke: 2px #10102A;
+        }
+        .h2-servicios h2 {
+            font-size: 26px;
+            -webkit-text-stroke: 2px #10102A;
+            font-weight: bold;
+            margin-bottom: 40px;
+            margin-left: -200px;
+        }
+        .h2-servicios h2:hover {
+            -webkit-text-stroke: 2px #0d75d0;
+        }
+        .texto p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            -webkit-text-stroke: 1px #000000;
+            margin-left: -200px;
+            width: 250px;
+        }
+        /* Termina servicios*/
+        /* Inicia Mision y Vision*/
+        section {
+            box-sizing: border-box;
+        }
+        /* START */
+        .about {
+            display: flex;
+            background: #0f0e27;
+            color: #fff;
+            font-size: 24px;
+        }
+        .about-box {
+            padding: 90px 60px;
+            box-sizing: border-box 100px;
+        }
+        .about-box h2 {
+            color: #dd9e25;
+            font-size: 60px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-family: Oswald;
+        }
+        .about-box p {
+            text-align: justify;
+            line-height: 1.5;
+            font-weight: 100;
+            width: 100%;
+            color: #bbbbbb;
+            font: 1rem sans-serif;
+        }
+        /* Termina Mision y Vision*/
+        /*Inicia nuestros proyectos*/
+        .protectos__container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 0;
+        }
+        .proyectos__proyecto {
+            display: flex;
+            margin-top: 2rem;
+            margin-left: 4rem;
+        }
+        .proyecto__slider {
+            display: flex;
+            flex-basis: 50%;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5rem;
+        }
+        .protecto__tittle {
+            font-size: 60px;
+            font-family: 'Roboto';
+            font-weight: 600;
+            margin-right: 35%;
+            width: 120%;
+            margin-bottom: 2rem;
+            -webkit-text-stroke: 2px rgb(0, 0, 0);
+        }
+        .proyecto__parrafo {
+            font-weight: 100;
+            margin-top: 0;
+            text-align: center;
+            font-family: 'Roboto';
+            font-size: 20px;
+            width: 100%;
+            margin-right: 45%;
+            -webkit-text-stroke: 1px #000000;
+        }
+        .proyecto__slider img {
+            width: 300px;
+            height: 150px;
+            margin-right: 50%;
+        }
+        .proyecto__2 {
+            display: flex;
+            flex-basis: 50%;
+            flex-direction: column;
+            font-size: 3rem;
+            font-weight: 700;
+            border-radius: 47% 0 0 47%;
+            background-color: #dd9e27;
+            padding: 2rem;
+            align-items: center;
+            margin: 2, 4rem 0 0 2rem;
+            max-height: 12rem;
+            max-width: 19rem;
+        }
+        .proyecto__2-title {
+            margin: 0;
+            font-size: 60px;
+            font-family: 'Roboto';
+            font-weight: 600rem;
+            color: white;
+            text-align: end;
+        }
+        /*Termina nuestro proyectos*/
+        /*inicia nuestro equipo */
+        #header-tres {
+            background-color: black;
+        }
+        .h1 {
+            font-size: 48px;
+            font-weight: 700px;
+            justify-content: center;
+            display: flex;
+            padding-top: 40px;
+            padding-bottom: 50px;
+            background-color: #F2F2F3;
+            -webkit-text-stroke: 4px #000000;
+        }
+        #sct-team {
+            padding: 5px;
+            background-color: #F2F2F3;
+        }
+        #sct-team .card-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #sct-team .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+            border: 2px solid #F2F2F3;
+        }
+        #sct-team .card .circular--square {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        #sct-team .card header img {
+            display: flex;
+            size: 50px;
+        }
+        #sct-team .card .card-body {
+            display: flex;
+            flex-direction: column;
+            background-color: #F2F2F3;
+            color: #fff;
+            padding: 30px;
+        }
+        .name {
+            -webkit-text-stroke: 3px #0b0766;
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .card-role {
+            -webkit-text-stroke: 3px #000000;
+            font-size: 37px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .card-description {
+            -webkit-text-stroke: 1px #464646;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        #foot {
+            width: 25%;
+            height: 25%;
+            margin-left: 39%;
+        }
+        /*Termina nuestro equipo*/
+        /* Inicia footer */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+        .footer .container {
+            max-width: 100%;
+            height: 10%;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        ul {
+            list-style: none;
+        }
+        .footer {
+            background-image: linear-gradient(45deg, #0b0766 0%, #000000 99%, #000000 100%);
+            padding: 70px 0;
+        }
+        /* Edito cuadro */
+        .footer-col {
+            width: 35%;
+            padding: 0 15px;
+        }
+        /* Edito letra de contactanos */
+        .footer-col h3 {
+            font-size: 30px;
+            font-family: 'roboto';
+            margin: 10px 0 0 20px;
+            text-transform: capitalize;
+            position: relative;
+            -webkit-text-stroke: 4px #dd9e27;
+        }
+        /* Editar el cuadro donde estara el nombre, corre, mensaje */
+        .form-register {
+            width: 255px;
+            background: transparent;
+            margin-top: 100px;
+            font-family: 'calibri';
+            color: white;
+            margin: 0 10px 10px 0;
+        }
+        /* Editar cuadro individales */
+        .controls {
+            width: 100%;
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 9px;
+            margin-bottom: 16px;
+            margin-left: -5%;
+            border: 1px solid #1f53c5;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+        }
+        /* Editar cuadro de mensaje */
+        .control {
+            width: 100%;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 9px;
+            margin-bottom: 16px;
+            margin-left: -5%;
+            border: 1px solid #1f53c5;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+        }
+        /* Editar boton de enviar */
+        .form-register .botons {
+            width: 50%;
+            background: #c5961f;
+            border-radius: 50px;
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0 5px 90px;
+            margin-right: -20%;
+            font-size: 16px;
+        }
+        /* Editar sub titulos h4 */
+        .footer-col h4 {
+            font-size: 18px;
+            color: #ddb514;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 400;
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .footer-col h4::before {
+            content: '   ';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+        /* Editar informacion */
+        .footer-col ul li a {
+            font-size: 16px;
+            font-family: 'roboto';
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+        }
+        /* Editar iconos */
+        .footer-col .social-links a {
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 40%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+        }
+        .footer-col .social-links a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+        }
+        /* Editar logo */
+        .logo img {
+            width: 300px;
+            height: 300px;
+            margin-left: 23rem;
+            position: relative;
+            top: -210%;
+        }
+        /*responsive*/
+        @media(max-width: 720px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+        @media(max-width: 720px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+        /* Terminaa footer */
+    }
